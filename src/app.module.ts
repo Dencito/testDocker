@@ -10,11 +10,11 @@ import { Category, Product } from './modules/products/entities';
 @Module({
   imports: [ TypeOrmModule.forRoot({
     type: 'postgres',
-    host: 'localhost',
+    host: 'peanut.db.elephantsql.com',
     port: 5432,
-    username: 'postgres',
-    password: 'postgres',
-    database: 'ecommerce-complete',
+    username: 'aszqcmjw',
+    password: 'FpVPerF9q4fyQhFOjbRoyO8Jrlsfagbl',
+    database: 'aszqcmjw',
     entities: [User, Product, Category],
     synchronize: true,
   }),AuthModule, UserModule, ProductModule],
